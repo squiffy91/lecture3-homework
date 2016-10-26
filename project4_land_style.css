@@ -82,6 +82,25 @@ body {
   font-size: 15px;
 }
 
+.header .wrapper .lm-btn:hover {
+	background-color: #fff;
+	color: #1d8ee4;
+	border: 1px solid #1d8ee4;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+.header .wrapper .ll-btn:hover {
+	background-color: #1d8ee4;
+	color: #fff;
+	border: 1px solid #1d8ee4;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+
 .header .wrapper .ll-btn {
   display: inline-block;
   border: 1px solid #1d8ee4;

@@ -82,19 +82,18 @@ color: #1d8ee4;
 font-size: 15px;
 }
 
-.header .style {
+.header .style, .header .style2 {
   height: 100%;
   display: inline-block;
   box-sizing: border-box;
   padding: 0 20px;
 }
-.header .style2 {
-background-color: #d3d3d3;
-height: 100%;
-display: inline-block;
-box-sizing: border-box;
-padding: 0 20px;
+
+
+.header .style:hover, .header .style2:hover {
+    background-color: #d3d3d3;
 }
+
 
 .main-top {
   height: 75%;
@@ -161,29 +160,17 @@ padding: 0 20px;
   box-sizing: border-box;
 }
 
-.set1 h4::after,
-.set2 h4::after,
-.set3 h4::after,
-.set4 h4::after,
-.set5 h4::after {
+.set1 h4::after, .set2 h4::after, .set3 h4::after, .set4 h4::after, .set5 h4::after {
   content: "$22";
   color: #c5c5c5;
   margin-left: 15px;
 }
 
-.set1 p,
-.set2 p,
-.set3 p,
-.set4 p,
-.set5 p {
+.set1 p, .set2 p, .set3 p, .set4 p, .set5 p {
   line-height: 20px;
 
 }
-.set1 span,
-.set2 span,
-.set3 span,
-.set4 span,
-.set5 span {
+.set1 span, .set2 span, .set3 span, .set4 span, .set5 span {
   border: 1px solid #1d8ee4;
   display: inline-block;
   color: #1d8ee4;
@@ -202,6 +189,12 @@ padding: 0 20px;
 .set1 {
   margin-left: 20px;
 }
+
+.set1 span:hover, .set2 span:hover, .set3 span:hover, .set4 span:hover, .set5 span:hover {
+    color: #c5c5c5;
+    cursor: pointer;
+}
+
 
 .footer {
   width: 1170px;
@@ -233,4 +226,8 @@ border-top: 1px solid #c5c5c5;
 .footer ul li a {
 color: #1d8ee4;
 line-height: 50px;
+}
+
+.footer ul li a:hover {
+    color: #c5c5c5;
 }

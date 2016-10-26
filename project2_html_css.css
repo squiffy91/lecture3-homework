@@ -84,10 +84,27 @@ font-size: 15px;
 
 .header .style {
   height: 100%;
-  background-color: #d3d3d3;
   display: inline-block;
   box-sizing: border-box;
   padding: 0 20px;
+}
+
+.header .style:hover {
+	 background-color: #d3d3d3;
+}
+
+
+.header .style2 {
+  height: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+
+
+.header .style2:hover {
+	background-color: #d3d3d3;
 }
 
 .main-top {
@@ -154,7 +171,16 @@ line-height: 25px;
   line-height: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
+
+.txt .btn:hover {
+	background-color: #fff;
+	color: #1e8ee4;
+	border: 1px solid #1e8ee4;
+	box-sizing: border-box;
+}
+
 
 .footer {
   width: 1140px;
@@ -184,4 +210,8 @@ line-height: 25px;
 .footer ul li a {
   line-height: 50px;
   color: #1d8ee4;
+}
+
+.footer ul li a:hover {
+	color: #c5c5c5;
 }
