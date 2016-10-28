@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h4, h5, h6, p, blockquote, pre,
+ h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -57,7 +57,7 @@ a {
 
 .main {
   width: 1170px;
-  height: 1050px;
+  height: 560px;
   border: 1px solid #c3c3c3;
   margin: 0 auto;
 }
@@ -82,19 +82,7 @@ color: #1d8ee4;
 font-size: 15px;
 }
 
-.header .style {
-  height: 100%;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0 20px;
-}
-
-.header .style:hover {
-	 background-color: #d3d3d3;
-}
-
-
-.header .style2 {
+.header .style, .header .style2 {
   height: 100%;
   display: inline-block;
   box-sizing: border-box;
@@ -102,103 +90,116 @@ font-size: 15px;
 }
 
 
-
-.header .style2:hover {
-	background-color: #d3d3d3;
+.header .style:hover, .header .style2:hover {
+    background-color: #d3d3d3;
 }
+
 
 .main-top {
   height: 75%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+
+}
+
+
+.main-top-set {
+  width: 1170px;
+  height: 430px;
+  border-bottom: 1px solid  #c3c3c3;
+}
+
+
+.main-top-set .set1, .set2, .set3, .set4, .set5 {
+  width: 210px;
+  box-sizing: border-box;
+  height: 400px;
+
+}
+
+.main-top-set .set1 img,
+.main-top-set .set2 img,
+.main-top-set .set3 img,
+.main-top-set .set4 img,
+.main-top-set .set5 img    {
+  padding: 3px;
+  border: 1px solid #c5c5c5;
+  box-sizing: border-box;
+}
+.main-top-set .set1 img:hover,
+.main-top-set .set2 img:hover,
+.main-top-set .set3 img:hover,
+.main-top-set .set4 img:hover,
+.main-top-set .set5 img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+.set1 h4::after, .set2 h4::after, .set3 h4::after, .set4 h4::after, .set5 h4::after {
+  content: "$22";
+  color: #c5c5c5;
   margin-left: 15px;
 }
 
-.main-top .upper,
-.middle, .bot {
-  height: 210px;
+.set1 h4:hover, .set2 h4:hover, .set3 h4:hover, .set4 h4:hover, .set2 h5:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
+.set1 p, .set2 p, .set3 p, .set4 p, .set5 p {
+  line-height: 20px;
 
-.main-top .upper img,
-.middle img, .bot img {
-  border: 1px solid #c5c5c5;
-  padding: 3px;
-  float: left;
-margin-right: 15px;
 }
-
-.main-top .upper p,
-.middle p, .bot p {
-  clear: right;
-  font-size: 15px;
-word-spacing: 2px;
-line-height: 25px;
-}
-
-.main-top .upper, .middle, .bot {
-  margin-bottom: 30px;
-}
-
-.upper p.up, .middle p.up, .bot p.up {
-  font-size: 18px;
-}
-
-.upper p.up, .middle p.up, .bot p.up {
-  margin-bottom: 15px;
-}
-
-
-.txt textarea {
-  width: 1140px;
-  box-sizing: border-box;
-  height: 40px;
-  resize: none;
-  line-height: 35px;
-  padding: 0 15px;
-  font-size: 16px;
-  color: #c5c5c5;
-}
-
-.txt .btn {
+.set1 span, .set2 span, .set3 span, .set4 span, .set5 span {
+  border: 1px solid #1d8ee4;
   display: inline-block;
-  background-color: #1d8ee4;
-  color: white;
-  width: 150px;
-  height: 40px;
+  color: #1d8ee4;
+  width: 100%;
+  font-size: 12px;
   text-align: center;
-  line-height: 40px;
+  height: 30px;
+  line-height: 30px;
+}
+.set1, .set2, .set3, .set4, .set5 {
+  display: inline-block;
+  margin-right: 15px;
   margin-top: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
 }
 
-.txt .btn:hover {
-	background-color: #fff;
-	color: #1e8ee4;
-	border: 1px solid #1e8ee4;
-	box-sizing: border-box;
+.set1 {
+  margin-left: 20px;
+}
+
+.set1 span:hover, .set2 span:hover, .set3 span:hover, .set4 span:hover, .set5 span:hover {
+    color: #c5c5c5;
+    cursor: pointer;
+    background-color: #1d8ee4;
+    color: #fff;
 }
 
 
 .footer {
-  width: 1140px;
+  width: 1170px;
   height: 50px;
-  border-top: 1px solid #c5c5c5;
-  box-sizing: border-box;
+  margin-top: 0 auto;
+border-top: 1px solid #c5c5c5;
+  margin-top: 40px;
 }
 
-.footer .logo, .footer ul {
+.footer .footwrap {
+  margin-left: 20px;
+}
+.footer .foot-logo, .footer ul {
   float: left;
-  margin-top: 15px;
 }
-
-.footer .logo {
+.footer .foot-logo {
   color: black;
   font-size: 16px;
-  margin-right: 30px;
   font-weight: bold;
+  margin-right: 20px;
   line-height: 50px;
 }
 
@@ -208,10 +209,10 @@ line-height: 25px;
 }
 
 .footer ul li a {
-  line-height: 50px;
-  color: #1d8ee4;
+color: #1d8ee4;
+line-height: 50px;
 }
 
 .footer ul li a:hover {
-	color: #c5c5c5;
+    color: #c5c5c5;
 }

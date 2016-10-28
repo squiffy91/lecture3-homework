@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -66,7 +71,6 @@ body {
   font-weight: 600;
 }
 
-
 .header .wrapper p {
   font-size: 15px;
 }
@@ -80,26 +84,16 @@ body {
   margin-right: 10px;
   margin-top: 20px;
   font-size: 15px;
+  border: 1px solid #1d8ee4;
 }
 
 .header .wrapper .lm-btn:hover {
 	background-color: #fff;
 	color: #1d8ee4;
-	border: 1px solid #1d8ee4;
 	cursor: pointer;
 	box-sizing: border-box;
+
 }
-
-
-.header .wrapper .ll-btn:hover {
-	background-color: #1d8ee4;
-	color: #fff;
-	border: 1px solid #1d8ee4;
-	cursor: pointer;
-	box-sizing: border-box;
-}
-
-
 
 .header .wrapper .ll-btn {
   display: inline-block;
@@ -112,9 +106,15 @@ body {
   font-size: 15px;
 }
 
+.header .wrapper .ll-btn:hover {
+	background-color: #1d8ee4;
+	color: #fff;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
 .main-top {
   width: 1170px;
-
   height: 320px;
   margin: 0 auto;
   margin-top: 15px;
@@ -140,6 +140,11 @@ body {
   display: inline-block;
   box-sizing: border-box;
   float: right;
+}
+
+.main-top-img:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 .main-content {
@@ -215,4 +220,9 @@ margin-right: 120px;
   border: 1px solid #c5c5c5;
   box-sizing: border-box;
 
+}
+
+.bot-img ul li img:hover {
+	opacity: 0.8;
+	cursor: zoom-in;
 }

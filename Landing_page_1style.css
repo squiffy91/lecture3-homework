@@ -107,15 +107,19 @@ a {
 }
 
 .header .btn-src {
-background-color: #1d8ee4;
-color: white;
-display: inline-block;
-height: 100%;
-line-height: 38px;
-padding: 0 15px;
-cursor: pointer;
-vertical-align: top;
+	background-color: #1d8ee4;
+	color: #fff;
+	display: inline-block;
+	height: 100%;
+	line-height: 38px;
+	padding: 0 15px;
+	cursor: pointer;
+	vertical-align: top;
 }
+
+/* Header section ends here */
+
+/* Main section starts here */
 
 .main {
 	width: 1170px;
@@ -176,19 +180,19 @@ vertical-align: top;
 	box-sizing: border-box;
 }
 
-
-.top-product-info {
-width: 500px;
-height: 463px;
-
+.top-images ul li img:hover {
+opacity: 0.8;
+cursor: zoom-in;
 }
 
+.top-product-info {
+	width: 500px;
+	height: 463px
+}
 
 .top-product-info p {
 	line-height: 20px;
 }
-
-
 
 .top-product-info select {
 	padding:9px;
@@ -202,7 +206,7 @@ height: 463px;
 .top-product-info label {
 	width: 100px;
 	display: inline-block;
-margin-right: 25px;
+	margin-right: 25px;
 	font-size: 14px;
 	font-weight:600;
 
@@ -218,7 +222,7 @@ margin-right: 25px;
 	width: 100%;
 	background-color: #1d8ee4;
 	display: inline-block;
-	color: white;
+	color: #fff;
 	height: 60px;
 	margin-top: 20px;
 	text-transform: capitalize;
@@ -227,6 +231,10 @@ margin-right: 25px;
 	line-height: 60px;
 	font-size: 22px;
 	margin-bottom: 20px;
+}
+
+.buttons .buy-btn:hover {
+	opacity: 0.8;
 }
 .buttons ul {
 	width: 500px;
@@ -237,15 +245,18 @@ margin-right: 25px;
 .buttons ul li {
 	display: inline-block;
 	width: 162px;
-height: 40px;
-text-align: center;
-border-right: 1px solid white;
+	height: 40px;
+	text-align: center;
+	border-right: 1px solid white;
 }
 
 .buttons ul li:last-child {
 	border-right: none;
 }
 
+.buttons ul:hover {
+	opacity: 0.8;
+}
 
 .buttons ul li a {
 	line-height: 40px;
@@ -254,11 +265,11 @@ border-right: 1px solid white;
 	font-size: 15px;
 }
 
-.main .lll {
+.main .float-left {
 	float: left;
 }
 
-.main .rrr {
+.main .float-right {
 	float: right;
 	margin-top: 20px;
 }
