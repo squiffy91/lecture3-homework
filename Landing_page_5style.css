@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+ h3, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+width: 1200px;
+height: 310px;
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+.h-info h1 {
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.h-info p {
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+
+.h-info ul {
+    float: left;
+    margin-top: 30px;
+}
+
+.h-info ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.h-info .tt, .h-info .sft {
+    background-color: #1d8ee4;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #1d8ee4;
+    box-sizing: border-box;
+}
+
+.h-info .tt:hover, .h-info .sft:hover {
+    background-color: #fff;
+    color: #1d8ee4;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.big {
+    flex: 2;
+    box-sizing: border-box;
+}
+
+.eq1, .eq2 {
+    flex: 1;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+.eq2 {
+    margin-right: 0px;
+}
+
+.h-info {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.eq1 .p-info {
+    width: 100%;
+    height: 250px;
+    background-color: #D3D3D3;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 250px;
+    color: #a8a8a8;
+}
+
+.eq2 .f-info {
+    margin-top: 20px;
+    background-color: #ededed;
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #a8a8a8;
+
+}
+
+
+.f-info label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.f-info input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.f-info span {
+    display: inline-block;
+    background-color: #1d8ee4;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #1d8ee4;
+    box-sizing: border-box;
+}
+
+.f-info span:hover {
+background-color: #fff;
+color: #1d8ee4;
+}
+
+.main-top {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #a8a8a8;
+    height: 60px;
+}
+
+.trending {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.main-content, .main-content2 {
+    width: 1200px;
+    height: 470px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.main-content2 {
+    margin-top: 20px;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6 {
+    flex: 1;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    padding:15px;
+    padding-top: 0px;
+    margin-right: 30px;
+    height: 470px;
+}
+
+.c3, .c6 {
+    margin-right: 0px;
+}
+
+.c1 span, .c2 span, .c3 span, .c4 span, .c5 span, .c6 span {
+    background-color: #D3D3D3;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 20px;
+    color: #575757;
+}
+.c1 h4, .c2 h4, .c3 h4, .c4 h4, .c5 h4, .c6 h4 { font-weight: 400;}
+
+.c1 p.subinfo, .c2 p.subinfo, .c3 p.subinfo, .c4 p.subinfo, .c5 p.subinfo, .c6 p.subinfo {
+    color: #7e7e7e;
+    font-size: 14px;
+}
